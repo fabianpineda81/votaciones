@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    
+
+}
+.contenedor_menu_header{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.header a{
+    height: 100%;
+    
+    
+    
+    
+}
+
+
+.menu{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.menu a{
+    height: inherit;
+}
+header a {
+    
+    text-decoration: none;
+    /* .header a hereda de .header ol li */
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+
+
+
+.header ol{
+    display: flex;
+    list-style: none;
+    height: inherit;
+    margin: 0;
+    align-items: center;
+}
+.botones_pagina{
+    margin-right: 10px;
+    color: white;
+}
+.link_header{
+    color: #063C51;
+    font-weight: 500;
+}
+
+.logo{
+    font-size: 1.9em;
+    font-weight: 500;
+    color: #263F56;
+    
+
+
+}

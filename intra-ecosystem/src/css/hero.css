@@ -1,0 +1,259 @@
+.hero{
+    display: flex;
+}
+
+.contenedor_informacion{
+    background: #E7F6FF;
+    padding: 7% 9%;
+    border-radius: 20px;
+    display: flex;
+    padding-right: 0;
+    transition: 1s;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.contenedor_informacio_pequeño{
+    width: 55%;
+    padding: 3%;
+}
+.contenedor_bienvenido{
+        width: 45%;
+        transition: 1s;
+}
+
+
+.informacion{
+    width: 50%;
+    
+}
+
+
+.titulo_contenedor_titulo{
+
+}
+
+.titulo_informacion{
+    font-size: 6.8vh;
+    font-weight: 700;
+    margin: 0;
+    color: #20364A;
+}
+
+.subtitulo_informacion{
+    font-size: 1.9vh;
+    margin: 1em 0;
+}
+
+.botones_informacion{
+    margin-right: 1em;
+    background: transparent;
+    color: #20364A;
+    border: 1px solid #20364A;
+    background-image: -webkit-linear-gradient(215deg, #20364A 40%, transparent 50%);
+    background-image: linear-gradient(215deg, #20364A 40%, transparent 50%);
+    -webkit-transition:   300ms ease-in-out  ;
+    transition:   300ms ease-in-out  ;
+    background-position: 30%;
+    background-size: 400%;
+    border-radius: 5px;
+    padding: .5rem .7rem;
+    width: 12vw;
+}
+
+
+.botones_informacion:hover{
+    
+    color: white;
+    background-position: 100%;
+    
+   
+   
+}
+
+
+.contenedor_botones{
+    display: flex;
+}
+
+.contenedor_subtitulo{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.imagen_informacion{
+    width: 80%;
+}
+
+.contenedor_imagen_informacion{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.numero{
+    display: flex;
+    flex-direction: column;
+}
+.rounded {
+    border: 1px solid #bbbbbb4d;
+    border-radius: 5px;
+    height: 30%;
+    margin: auto 2em;
+  }
+
+  .contenedor_numeros{
+      display: flex;
+  }
+.item{
+    display: flex;
+}
+.numero_numeros{
+    color: #20364A;
+    font-weight: 500 ;
+    font-size: 3vw;
+    margin: 0;
+}
+
+.titulo_numeros{
+    color: #20364A;
+    font-weight: 500 ;
+    margin-top: .5em ;
+}
+.contenedor_numeros{
+    margin-top: 5em;
+}
+
+.numero_variente_verde{
+    color :  #54D19E
+}
+.contenedor_bienvenido{
+    padding: 3%;
+    padding-left: 0;
+}
+
+.contenedor_imagen_bienvenido{
+    width: 15%;
+}
+.imagen_bienvenido{
+        width: 100%;
+
+}
+
+.titulo_bienvenido{
+    color: #20364A;
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0;
+    margin-top: .5em;
+}
+
+.informacion_contenido{
+    color: #20364A;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.titulo_item_informacion{
+    color: #20364A;
+    font-weight: bold;
+
+}
+.texto_item_informacion{
+    color: #20364A;
+    font-weight: 500;
+}
+
+.informacion_contenido{
+    margin-top: 1.5em;
+}
+
+.contenedor_item_informacion{
+    margin-top: 2em;
+}
+.contenedor_formulario{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.contenedor_titulo{
+    width: 100%;
+}
+.contenedor_divider{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.divider_titulo_formulario{
+    color: #20364A;
+    background: #20364A;
+    border-top: 3px solid #20364A;
+    width: 35%;
+}
+.divider_titulo_formulario2{
+    color: #20364A;
+    background: #20364A;
+    border-top: 3px solid #ddd;
+    width: 75%;
+}
+
+.contenedor_formulario_inputs{
+    
+}
+.contenedor_input{
+    height: 4em;
+    
+    
+    
+}
+
+.contenedor_palabra_input{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: #20364A;
+    font-weight: bold;
+    font-size: .8em;
+    align-items: center;
+}
+
+.contenedor_input{
+    display: flex;
+    background: white;
+    border-radius: .4em;
+    overflow: hidden;
+
+}
+
+.input{
+    border: none ;
+    width: 70%;
+    padding-left: 2em;
+}
+
+.input:focus{
+    border: none;
+}
+.contenedor_saldo{
+    margin-top: 1.8em;
+    display: flex;
+    color: #20364A;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.boton_saldo{
+    width: 100%;
+    text-align: center;
+    color: #01131a;
+    background: #375879;
+    font-weight: bold;
+    border: none;
+
+
+}
+
+
+
+
+
